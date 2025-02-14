@@ -1,7 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
+	<!-- 
+	comment-out implicit usings to "remove global usings"
+    this only disables the default global usings, we can still create our own
+    commenting it out or removing it is preferable to setting it to 'disable' since 
+	this does not allow automatic usings/imports when writing code
+	-->
     <!--<ImplicitUsings>enable</ImplicitUsings>-->
     <Nullable>enable</Nullable>
   </PropertyGroup>
