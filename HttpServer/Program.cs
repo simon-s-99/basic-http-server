@@ -1,6 +1,5 @@
 ﻿using System.Net;
 using System.Net.Sockets;
-using System.Threading.Tasks;
 
 // A basic implementation of a http-server
 
@@ -8,7 +7,7 @@ namespace HttpServer;
 
 public class Program
 {
-    public static async Task Main(string[] args)
+    public static void Main(string[] args)
     {
         IPAddress listenerAddress = IPAddress.Any;
         int listenerPort = 3999;
