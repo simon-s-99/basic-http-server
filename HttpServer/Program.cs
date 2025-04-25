@@ -8,6 +8,9 @@ namespace HttpServer
     {
         public static void Main(string[] args)
         {
+            //while (true)
+            //{
+            //}
             Server.HttpServer();
         }
     }
