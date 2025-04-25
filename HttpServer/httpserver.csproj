@@ -9,7 +9,7 @@
     commenting it out or removing it is preferable to setting it to 'disable' since 
 	this does not allow automatic usings/imports when writing code
 	-->
-    <!--<ImplicitUsings>enable</ImplicitUsings>-->
+    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
